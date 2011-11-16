@@ -51,7 +51,7 @@
 		"url" : "http://github.com/balupton/buildr.npm.git"
 	},
 	"dependencies": {
-		"less-bal": "1.1.x",
+		"less": "1.1.x",
 		"coffee-script": "1.1.x",
 		"bal-util": "0.7.x",
 		"jshint": "0.2.x",

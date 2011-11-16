@@ -3,7 +3,7 @@ fs = require 'fs'
 path = require 'path'
 util = require 'bal-util'
 coffee = require 'coffee-script'
-less = require 'less-bal'
+less = require 'less'
 pulverizr = require 'pulverizr-bal'
 csslint = require('csslint').CSSLint
 jshint = require('jshint').JSHINT
@@ -65,7 +65,7 @@ class Buildr
 		# Bundling (requires Order)
 		bundleScriptPath: false # String or false
 		bundleStylePath: false # String or false
-		deleteBundledFiles: false # (requires outPath) true or false 
+		deleteBundledFiles: false # (requires outPath) true or false
 
 		# Loaders (requires Order)
 		srcLoaderHeader: false # String or false
